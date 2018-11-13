@@ -1,0 +1,198 @@
+/************************************************************
+    Metabox & Admin Menu Styles
+*************************************************************/
+
+.rwmb-meta-box .rwmb-label {
+    width: 30%;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+.rwmb-meta-box .rwmb-label ~ .rwmb-input {
+    width: 70%;
+}
+
+.rwmb-meta-box .rwmb-field {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 15px;
+}
+
+.rwmb-meta-box .rwmb-field:last-child {
+    border-bottom: 0;
+}
+
+.rwmb-meta-box input[type=checkbox] {
+    border: 1px solid #7c9258;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.rwmb-meta-box input[type=checkbox]::before {
+    color: #7c9258;
+}
+
+#codexin_core a:focus,
+#codexin_core input.cx-core-text:focus,
+div#post-body .rwmb-oembed:focus,
+div#post-body .rwmb-textarea:focus,
+div#post-body .rwmb-date:focus,
+div#post-body .rwmb-time:focus,
+div#post-body .rwmb-url:focus,
+div#post-body .rwmb-select:focus,
+div#post-body .rwmb-text:focus,
+.rwmb-meta-box input[type=checkbox]:focus {
+    border-color: #7c9258;
+    -webkit-box-shadow: 0 0 2px rgba(124, 146, 88, 0.8);
+    box-shadow: 0 0 2px rgba(124, 146, 88, 0.8);
+}
+
+#codexin_core input.cx-core-text,
+div#post-body .rwmb-time,
+div#post-body .rwmb-email,
+div#post-body .rwmb-date,
+div#post-body .rwmb-oembed,
+div#post-body .rwmb-url,
+div#post-body .rwmb-file_input.rwmb-file_input,
+div#post-body .rwmb-text {
+    border: 1px solid #c8c8c8;
+    height: 35px;
+    width: 400px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    max-width: 100%;
+}
+
+div#post-body .rwmb-textarea {
+    border: 1px solid #c8c8c8;
+    width: 400px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    max-width: 100%;
+    height: 150px;
+}
+
+
+div#post-body .rwmb-select {
+    border: 1px solid #c8c8c8;
+    cursor: pointer;
+    height: 35px;
+    width: 400px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    max-width: 100%;
+}
+
+.rwmb-image-select {
+    width: 100%;
+    height: auto;
+    line-height: 0;
+    border-radius: 0;
+}
+
+.rwmb-image-select:hover, .rwmb-image-select.rwmb-active {
+	border-color: #7c9258;
+}
+
+
+#codexin_core p.submit input,
+.rwmb-meta-box .rwmb-background-wrapper .wp-picker-container button,
+.rwmb-meta-box .rwmb-background-wrapper .rwmb-file-input-select.button,
+.rwmb-meta-box .rwmb-background-wrapper .rwmb-file-input-remove.button,
+.rwmb-meta-box .rwmb-media-add a.button {
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #f1f1f1;
+    text-align: center;
+    height: 32px;
+    line-height: 30px;
+    border-color: #ccc;
+    margin: 10px 0;
+}
+
+.rwmb-meta-box .rwmb-background-wrapper .rwmb-file-input-select.button,
+.rwmb-meta-box .rwmb-background-wrapper .rwmb-file-input-remove.button {
+    margin: 0;
+    height: 35px;
+    line-height: 32px;
+}
+
+.rwmb-meta-box .rwmb-background-wrapper .wp-picker-container .wp-color-result-text {
+    line-height: 30px;
+}
+
+.rwmb-meta-box .wp-picker-open + .wp-picker-input-wrap {
+    margin-top: 10px;
+}
+
+.rwmb-meta-box .wp-picker-container input[type=text].wp-color-picker {
+    line-height: 24px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-left: 5px;
+}
+
+.rwmb-meta-box .rwmb-background-wrapper .wp-picker-container .wp-picker-clear {
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #f1f1f1;
+    text-align: center;
+    height: 32px;
+    line-height: 30px;
+    border-color: #ccc;
+}
+
+.rwmb-meta-box .rwmb-background-wrapper .wp-picker-container .wp-picker-clear:hover,
+.rwmb-meta-box .rwmb-background-wrapper .rwmb-file-input-select.button:hover,
+.rwmb-meta-box .rwmb-background-wrapper .rwmb-file-input-remove.button:hover,
+.rwmb-meta-box .rwmb-media-add a.button:hover {
+    background: #eee;
+    border-color: #999;
+}
+
+#ui-datepicker-div.ui-datepicker thead,
+#ui-datepicker-div.ui-datepicker .ui-datepicker-header,
+#ui-datepicker-div .ui-timepicker-div .ui-widget-header {
+    background: #464b50;
+}
+
+#ui-datepicker-div.ui-datepicker td .ui-state-active,
+#ui-datepicker-div.ui-datepicker td .ui-state-hover {
+    background: #7c9258;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#ui-datepicker-div .ui-slider-horizontal .ui-slider-handle:focus {
+    outline-color: #7c9258;
+}
+
+#codexin_core .form-table th {
+    width: 30%;
+    vertical-align: middle;
+}
+
+#codexin_core tr {
+    border-bottom: 1px solid #dedede;
+}
+
+#codexin_core span.description {
+    display: block;
+    margin-top: 10px;
+}
+
+#codexin_core p.submit input {
+    -webkit-box-shadow: none;
+    text-shadow: none;
+    background: #b2d27e !important;
+    border-color: #7c9258 !important;
+    color: #444;
+    transition: all 0.3s;
+}
+
+#codexin_core p.submit input:hover {
+    background: #c7eb8d !important;
+}
+
